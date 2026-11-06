@@ -222,8 +222,11 @@ footer .row{display:grid;gap:36px}
 footer a{color:var(--white)}
 footer a:hover{color:var(--gold)}
 footer h2{color:var(--white);font-size:1.05rem;letter-spacing:.03em;margin-bottom:12px}
-.partners{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
-.partners span{border:1px dashed rgba(255,255,255,.35);padding:10px 14px;font-size:.82rem;color:#cfe0ea}
+.partners{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0;padding:0;list-style:none}
+.partners li{display:flex}
+.partners span{display:flex;align-items:center;border:1px dashed rgba(255,255,255,.35);padding:10px 14px;font-size:.82rem;color:#cfe0ea}
+.partners .tile{background:var(--white);padding:10px 14px;align-items:center;border-radius:10px}
+.partners img{display:block;height:34px;width:auto}
 .sources{margin:0;padding-left:1.3em}
 .sources li{margin-bottom:6px}
 .legal{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255,255,.15)}
@@ -508,9 +511,15 @@ footer h2{color:var(--white);font-size:1.05rem;letter-spacing:.03em;margin-botto
           <svg class="lockup" viewBox="0 0 343.7 100.0" aria-hidden="true" focusable="false"><use href="#logo-rev"/></svg>
         </a>
         <p style="margin-top:18px">Invest South West is a regional partnership of councils and partners working as one region to attract investment.</p>
-        <div class="partners" aria-label="Partner logos">
-          <span>Partner logo</span><span>Partner logo</span><span>Partner logo</span><span>Partner logo</span>
-        </div>
+        <ul class="partners" aria-label="Partner councils">
+          <li class="tile"><img src="assets/partners/cornwall.png" alt="Cornwall Council" width="415" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/devon.png" alt="Devon County Council" width="438" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/torbay.png" alt="Torbay Council" width="307" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/bcp.png" alt="BCP Council" width="919" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/dorset.png" alt="Dorset Council" width="361" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/somerset.png" alt="Somerset Council" width="568" height="160" loading="lazy"></li>
+          <li class="tile"><img src="assets/partners/wiltshire.png" alt="Wiltshire Council" width="818" height="160" loading="lazy"></li>
+        </ul>
       </div>
       <div>
         <h2>Sources</h2>
