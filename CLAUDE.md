@@ -1,6 +1,6 @@
 # Invest South West – website
 
-One-page inward investment site for **Invest South West**, a partnership of councils in Cornwall, Devon, Torbay, BCP, Dorset, Somerset and Wiltshire. Hosted on GitHub Pages at https://southwestinvest.co.uk/
+One-page inward investment site for **Invest South West**, a partnership of councils in Cornwall, Devon, Plymouth, Torbay, BCP, Dorset, Somerset and Wiltshire. Hosted on GitHub Pages at https://southwestinvest.co.uk/
 
 ## How this repo works
 - Single self-contained `index.html` (CSS and SVG inline; Google Fonts: Oswald and Inter). No build step.
@@ -12,7 +12,7 @@ One-page inward investment site for **Invest South West**, a partnership of coun
 - Strapline: "Room to grow. Ready to go."
 - Logo: compass mark + "INVEST / SOUTH WEST" on two lines, all words Oswald Bold, same size. Use the outlined artwork in `brand/ISW_Logo_Pack_v2/svg/` – never re-typeset it. On the site it is an inline `<symbol id="logo-rev">`.
 - Colours: Deep Sea #0E3B5C, Gold #F2B33D, Teal #0F7478, Slate #4A5A66, Mist #E8F0F3, White. All text/background pairs must meet WCAG 2.2 AA.
-- Geography: always exactly Cornwall, Devon, Torbay, BCP, Dorset, Somerset and Wiltshire. Don't add other areas.
+- Geography: always exactly Cornwall, Devon, Plymouth, Torbay, BCP, Dorset, Somerset and Wiltshire. Don't add other areas.
 - Partner council logos are in `assets/partners/` and appear in the footer, in the same order as the geography list.
 - UK English, plain English. Public sector: politically neutral, no unverified claims ("best place in the UK" etc.). Every statistic or claim needs a source in the footer Sources list.
 
